@@ -180,6 +180,8 @@ class General(commands.Cog, name="general"):
         )
         await context.send(embed=embed)
 
+   
+
     @commands.hybrid_command(
         name="invite",
         description="Get the invite link of the bot to be able to invite it.",
